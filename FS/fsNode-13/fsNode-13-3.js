@@ -1,0 +1,10 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const sourceFilePath = path.join(__dirname, '../FileTXT/hello.txt');
+const destinationFilePath = path.join(__dirname, '../FileTXT/clone.txt');
+const readStream = fs.createReadStream(sourceFilePath);
+const writeStream = fs.createWriteStream(destinationFilePath);
+readStream.pipe(writeStream);
+readStream.on('end', () => console.log('Hoàn thành việc đọc file nguồn và ghi vào file đích.'));
+readStream.on('error', (err) => console.error('Lỗi khi đọc file nguồn:', err));
+writeStream.on('error', (err) => console.error('Lỗi khi ghi vào file đích:', err));

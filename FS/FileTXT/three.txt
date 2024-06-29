@@ -1,0 +1,78 @@
+Content of FS\FileTXT\big.txt: 
+ hhhhhhhhhhhhhhhhhHello Hung 0
+Hello Hung 1
+Hello Hung 2
+Hello Hung 3
+Hello Hung 4
+Hello Hung 5
+Hello Hung 6
+Hello Hung 7
+Hello Hung 8
+Hello Hung 9
+Hello Hung 10
+Hello Hung 11
+Hello Hung 12
+Hello Hung 13
+Hello Hung 14
+Hello Hung 15
+Hello Hung 16
+Hello Hung 17
+Hello Hung 18
+Hello Hung 19
+
+
+Content of FS\FileTXT\first.txt: 
+ Hello this is first text file
+
+Content of FS\FileTXT\one.txt: 
+ This is some new content. 
+
+
+Content of FS\FileTXT\second.txt: 
+ Hello this is second text file
+
+Content of FS\FileTXT\testWiteFile.txt: 
+ This is awesome: Hello this is first text file Hello this is second text file
+
+Content of FS\FileTXT\three.txt: 
+ Content of FS\FileTXT\big.txt: 
+ hhhhhhhhhhhhhhhhhHello Hung 0
+Hello Hung 1
+Hello Hung 2
+Hello Hung 3
+Hello Hung 4
+Hello Hung 5
+Hello Hung 6
+Hello Hung 7
+Hello Hung 8
+Hello Hung 9
+Hello Hung 10
+Hello Hung 11
+Hello Hung 12
+Hello Hung 13
+Hello Hung 14
+Hello Hung 15
+Hello Hung 16
+Hello Hung 17
+Hello Hung 18
+Hello Hung 19
+
+
+Content of FS\FileTXT\first.txt: 
+ Hello this is first text file
+
+Content of FS\FileTXT\one.txt: 
+ This is some new content. 
+
+
+Content of FS\FileTXT\second.txt: 
+ Hello this is second text file
+
+Content of FS\FileTXT\testWiteFile.txt: 
+ This is awesome: Hello this is first text file Hello this is second text file
+
+
+
+Content of FS\FileTXT\two.txt: 
+ 
+

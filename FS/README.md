@@ -7,55 +7,55 @@
 #  chownSync: [Function: chownSync], ✔
 #  chmod: [Function: chmod], ✔
 #  chmodSync: [Function: chmodSync], ✔
-  close: [Function: close],
-  closeSync: [Function: closeSync],
-  copyFile: [Function: copyFile],
-  copyFileSync: [Function: copyFileSync],
-  cp: [Function: cp],
-  cpSync: [Function: cpSync],
-  # createReadStream: [Function: createReadStream], ✔
-  # createWriteStream: [Function: createWriteStream], ✔
-  exists: [Function: exists],
-  existsSync: [Function: existsSync],
-  fchown: [Function: fchown],
-  fchownSync: [Function: fchownSync],
-  fchmod: [Function: fchmod],
-  fchmodSync: [Function: fchmodSync],
-  fdatasync: [Function: fdatasync],
-  fdatasyncSync: [Function: fdatasyncSync],
-  fstat: [Function: fstat],
-  fstatSync: [Function: fstatSync],
-  fsync: [Function: fsync],
-  fsyncSync: [Function: fsyncSync],
-  ftruncate: [Function: ftruncate],
-  ftruncateSync: [Function: ftruncateSync],
-  futimes: [Function: futimes],
-  futimesSync: [Function: futimesSync],
-  lchown: [Function: lchown],
-  lchownSync: [Function: lchownSync],
-  lchmod: undefined,
-  lchmodSync: undefined,
-  link: [Function: link],
-  linkSync: [Function: linkSync],
-  lstat: [Function: lstat],
-  lstatSync: [Function: lstatSync],
-  lutimes: [Function: lutimes],
-  lutimesSync: [Function: lutimesSync],
-  mkdir: [Function: mkdir],
-  mkdirSync: [Function: mkdirSync],
-  mkdtemp: [Function: mkdtemp],
-  mkdtempSync: [Function: mkdtempSync],
-# open: [Function: open],✔
-  openSync: [Function: openSync],
-  openAsBlob: [Function: openAsBlob],
-  readdir: [Function: readdir],
+#  close: [Function: close], ✔
+#  closeSync: [Function: closeSync], ✔
+#  copyFile: [Function: copyFile], ✔
+#  copyFileSync: [Function: copyFileSync], ✔
+#  cp: [Function: cp], ✔
+#  cpSync: [Function: cpSync], ✔
+#  createReadStream: [Function: createReadStream], ✔
+#  createWriteStream: [Function: createWriteStream], ✔
+#  exists: [Function: exists], ✔
+#  existsSync: [Function: existsSync], ✔
+#  fchown: [Function: fchown], ✔
+#  fchownSync: [Function: fchownSync], ✔
+#  fchmod: [Function: fchmod], ✔
+#  fchmodSync: [Function: fchmodSync], ✔
+#  fdatasync: [Function: fdatasync],✔
+#  fdatasyncSync: [Function: fdatasyncSync], ✔ 
+#  fstat: [Function: fstat], ✔
+#  fstatSync: [Function: fstatSync], ✔
+#  fsync: [Function: fsync], ✔
+#  fsyncSync: [Function: fsyncSync], ✔
+#  ftruncate: [Function: ftruncate],✔
+#  ftruncateSync: [Function: ftruncateSync],✔
+#  futimes: [Function: futimes], ✔
+#  futimesSync: [Function: futimesSync], ✔
+#  lchown: [Function: lchown], ✔
+#  lchownSync: [Function: lchownSync], ✔
+#  lchmod: undefined, ✔
+#  lchmodSync: undefined, ✔
+#  link: [Function: link], ✔
+#  linkSync: [Function: linkSync],✔
+#  lstat: [Function: lstat], ✔
+#  lstatSync: [Function: lstatSync],✔ ✊
+#  lutimes: [Function: lutimes],✔
+#  lutimesSync: [Function: lutimesSync],✔
+#  mkdir: [Function: mkdir], ✔
+#  mkdirSync: [Function: mkdirSync], ✔
+#  mkdtemp: [Function: mkdtemp],✔
+#  mkdtempSync: [Function: mkdtempSync],✔
+#  open: [Function: open],✔
+#  openSync: [Function: openSync], ✔
+#  openAsBlob: [Function: openAsBlob], ✔
+#  readdir: [Function: readdir], ✔
 #  readdirSync: [Function: readdirSync], ✔
-  read: [Function: read],
-  # readSync: [Function: readSync], ✔
-  readv: [Function: readv],
-  readvSync: [Function: readvSync],
-  # readFile: [Function: readFile], ✔
-  # readFileSync: [Function: readFileSync], ✔
+#  read: [Function: read], ✔
+# readSync: [Function: readSync], ✔
+#  readv: [Function: readv], ✔
+#  readvSync: [Function: readvSync], ✔
+# readFile: [Function: readFile], ✔
+# readFileSync: [Function: readFileSync], ✔
   readlink: [Function: readlink],
   readlinkSync: [Function: readlinkSync],
   realpath: [Function: realpath] { native: [Function (anonymous)] },
@@ -86,8 +86,8 @@
   # write: [Function: write], ✔
   # writeSync: [Function: writeSync], ✔
   # writev: [Function: writev], ✔
-  writevSync: [Function: writevSync],
-  Dirent: [class Dirent],
+#  writevSync: [Function: writevSync], ✔
+#  Dirent: [class Dirent], ✔
   # Stats: [Function: Stats], ✔
   # ReadStream: [Getter/Setter],✔
   # WriteStream: [Getter/Setter],✔
@@ -135,7 +135,7 @@
   #  W_OK: 2, ✔
   #  X_OK: 1, ✔
     UV_FS_COPYFILE_EXCL: 1,
-    COPYFILE_EXCL: 1,
+  #  COPYFILE_EXCL: 1, ✔
     UV_FS_COPYFILE_FICLONE: 2,
     COPYFILE_FICLONE: 2,
     UV_FS_COPYFILE_FICLONE_FORCE: 4,
